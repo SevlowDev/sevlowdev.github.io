@@ -10,7 +10,7 @@ body {
 }
 
 #footer {
-    position: fixed;
+    position: absolute;
     color: white;
     background-color: black;
     text-align: center;

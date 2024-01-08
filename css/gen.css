@@ -9,6 +9,17 @@ body {
     margin: 30px;
 }
 
+#footer {
+    position: fixed;
+    color: white;
+    background-color: black;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 15px;
+}
+
 h1 {
     border: 10px;
     font-size: 80px;

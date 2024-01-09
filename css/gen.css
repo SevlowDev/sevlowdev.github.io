@@ -17,6 +17,7 @@ body {
     left: 0;
     right: 0;
     border: 15px;
+    margin: -10px;
 }
 
 h1 {

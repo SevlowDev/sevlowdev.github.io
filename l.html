@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirecting...</title>
+  </head>
+  <body>You will be redirected soon...</body>
+  <script>
+  function getJSON(url) {
+    fetch(url).then(res => res.json()).then(out => {
+        return out;
+    }).catch(err => {throw err});
+  }
+
+  let linksmap = getJSON("https://sevlowdev.github.io/links.json");
+
+  const urlParams = new URLSearchParams(window.location.search);
+  let code = urlParams.get("c");
+
+  if(code) {
+    if(linksmap[code]) {
+        window.location.href = linksmap[code];
+    } else {
+        window.location.href = "https://sevlowdev.github.io/404"
+    }
+  } else{
+    window.location.href = "https://sevlowdev.github.io/404"
+  }
+    
+  </script>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lange="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Open Graph / Facebook -->
+        <meta name="og:site_name" content="Sevlow">
+        <meta name="og:title" content="Sevlow's Website">
+        <meta name="og:description" content="Sevlow">
+        <meta name="og:image" itemprop="image" content="https://sevlowdev.github.io/sevlow.png">
+        
+        <!-- Webpage information -->
+        <meta name="theme-color" content="#0111ff">
+        <meta name="title" content="Sevlow">
+        <meta name="description" content="Sevlow">
+        
+        <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sevlowdev.github.io/">
+    <meta property="twitter:title" content="Sevlow">
+    <meta property="twitter:description" content="Sevlow">
+    <meta property="twitter:image" content="https://sevlowdev.github.io/sevlow.png">
+
+    <!-- Other's Meta --->
+    <meta name="robots" content="index, follow">
+
+    
+
+    <title>
+        404: Not found
+    </title>
+
+    <link rel="stylesheet" href="./css/gen.css">
+
+    <link rel="icon" type="image/x-icon" href="/sevlow.png">
+
+    </head>
+    <body>
+        <div id="content">
+            <div style="text-align:center;">
+                <h1>Error 404: Not found.</h1>
+                <p>Maybe the site you were looking for doesn't</p><br><p>exist anymore? Or did it change the address?</p>
+            
+                <h2><a href="/">Go home?</a></h2>
+            </div>
+        </div>
+    </body>
+    <script src="/topbox.js"></script>
+</html>
